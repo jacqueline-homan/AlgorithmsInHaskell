@@ -39,3 +39,8 @@ main = do
     let input = [16,4,10,14,7,9,3,2,8]
     print $ heapsort input
 -- heapsort [16,4,10,14,7,9,3,2,8]
+
+main2 :: IO() 
+main2 = do 
+    let myList = [4,4,4,5,5,4]
+    print $ group myList
